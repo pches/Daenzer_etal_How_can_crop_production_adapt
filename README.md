@@ -16,7 +16,9 @@ The input data that is required for this repo's code can be found here:
 
 TITLE data: (Author). Harmonized Database of Western U.S. Water Rights (HarDWR) (Version v1) [Data set]. MSD-LIVE Data Repository. https://doi.org/1x/x
 
-Contact info: nucci@psu.edu (data curation), fpp5056@psu.edu (methods and methodologies)
+Contact info: 
+- Jeffrey Nucciarone, https://orcid.org/0000-0002-1092-9142 (data curation),
+- Femeena Pandara Valappil, https://orcid.org/0000-0002-9120-8493) (code)
 
 ## System requirements:
 This code is written in standard R coding language. No special hardware or system requirements are necessary. The R code requires the use of the following libraries for processing:
@@ -37,7 +39,7 @@ This code is written in standard R coding language. No special hardware or syste
 - sp
 - tidyr
 
-All processing was performed on a Red Hat Enterprise Linux 8 system but should be reproducible on a regular desktop computer.  
+All processing was performed on a Red Hat Enterprise Linux 8 system but should be reproducible on a regular Windows/Mac/Linux computer.  
 
 
 ## Scripts:
@@ -48,7 +50,9 @@ Here, we describe each dataset:
 
 File name: script_and_file_description.xlsx
 
-A Microsoft XL spreadsheet containing a list of all scripts along with their required input files and their description along with a listing of each output file and description for each script.
+A Microsoft XL spreadsheet with a list of all scripts and their:
+- required input files and  descriptions 
+- listing of each output file and description for each script.
 
 ---
 
@@ -114,10 +118,4 @@ This script creates a stacked bar chart displaying the economic value of agricut
 
 ---
 
-File Name: Table_1.csv; Description: All data in Table 1, reproducible from WBM output files using code table_1.R
-
-Filename	Description	Notes
-
-
- 	![image](https://github.com/user-attachments/assets/6c420bf6-0983-48b5-b4f5-f7a8e1e26562)
 
