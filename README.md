@@ -14,7 +14,7 @@ This supplemental information document and its associated paper are in preparati
 
 The input data that is required for this repo's code can be found here:
 
-TITLE data: (Author). Harmonized Database of Western U.S. Water Rights (HarDWR) (Version v1) [Data set]. MSD-LIVE Data Repository. https://doi.org/1x/x
+TITLE data: (Author). Harmonized Database of Western U.S. Water Rights (HarDWR) (Version v1) [Data set]. MSD-LIVE Data Repository. [https://doi.org/1x/x](https://doi.org/10.57931/2530930)
 
 Contact info: 
 - Jeffrey Nucciarone, https://orcid.org/0000-0002-1092-9142 (data curation),
