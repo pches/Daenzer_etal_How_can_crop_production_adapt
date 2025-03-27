@@ -21,29 +21,36 @@ Contact info: nucci@psu.edu (data curation), fpp5056@psu.edu (methods and method
 ## System requirements:
 This code is written in standard R coding language. No special hardware or system requirements are necessary. The R code requires the use of the following libraries for processing:
 
-*RColorBrewer
-*data.table
-*dplyr
-*ggplot2
-*ggspatial
-*lattice
-*maps
-*ncdf4
-*raster
-*rgdal
-*rgeos
-*rnaturalearth
-*sf
-*sp
-*tidyr
+- RColorBrewer
+- data.table
+- dplyr
+- ggplot2
+- ggspatial
+- lattice
+- maps
+- ncdf4
+- raster
+- rgdal
+- rgeos
+- rnaturalearth
+- sf
+- sp
+- tidyr
 
 All processing was performed on a Red Hat Enterprise Linux 8 system but should be reproducible on a regular desktop computer.  
 
 
-## How to use the data Data for (Version v1) 
-The code provided here can be used on the data available at https://doi.org/to reproduce the figures and tables in the paper. Here, we describe each dataset:
+## Scripts:
 
-Folder: 
+The code provided here to reproduce the figures and tables in the paper requires the data available on MSD-Live at https://doi.org/. A description file available in this repo, in the form of a spreadsheet, lists the required input files for each script. The output file description lists each associated figure generated in the paper.
+
+Here, we describe each dataset:
+
+File name: script_and_file_description.xlsx
+
+A Microsoft XL spreadsheet containing a list of all scripts along with their required input files and their description along with a listing of each output file and description for each script.
+
+---
 
 File Name: summary_by_iteration.R	
 
