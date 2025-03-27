@@ -14,11 +14,13 @@ This supplemental information document and its associated paper are in preparati
 
 The input data that is required for this repo's code can be found here:
 
-TITLE data: (Author). Harmonized Database of Western U.S. Water Rights (HarDWR) (Version v1) [Data set]. MSD-LIVE Data Repository. [https://doi.org/1x/x](https://doi.org/10.57931/2530930)
+"Supporting Information - How Will Crop Production Adapt with Greater Groundwater Restrictions in the West?", authors: Daenzer, Kathryn; Femeena, Pandara Valappil; Frolking, Steve; Grogan, Danielle; Nucciarone, Jeffrey; Calvin, Kate; Lammers, Richard; Fisher-Vanden, Karen 
+
+MSD-LIVE Data Repository. [https://doi.org/1x/x](https://doi.org/10.57931/2530930)
 
 Contact info: 
-- Jeffrey Nucciarone, https://orcid.org/0000-0002-1092-9142 (data curation),
-- Femeena Pandara Valappil, https://orcid.org/0000-0002-9120-8493) (code)
+- Jeffrey Nucciarone, [https://orcid.org/0000-0002-1092-9142] https://orcid.org/0000-0002-1092-9142 (data curation),
+- Femeena Pandara Valappil, [https://orcid.org/0000-0002-9120-8493] https://orcid.org/0000-0002-9120-8493 (code)
 
 ## System requirements:
 This code is written in standard R coding language. No special hardware or system requirements are necessary. The R code requires the use of the following libraries for processing:
