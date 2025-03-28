@@ -1,15 +1,14 @@
 # Daenzer_etal_How_can_crop_production_adapt
-This repository contains all of the code necessary to reproduce the figures for the Supplemental Information document for the manuscript "How can crop production adapt to growing groundwater restrictions in the West?" authored by Daenzer, et al.
 
-# Code for: How can crop production adapt to growing groundwater restrictions in the West? by Daenzer et al.
-
-**Code Authors:** Pandara Valappil Femeena and Kathryn Daenzer
+## Code for: How can crop production adapt to growing groundwater restrictions in the West? by Daenzer et al.
 
 **Repository Purpose:** This repository contains the code necessary to reproduce the figures in the supplemental information document accompanying the research paper, "How can crop production adapt to growing groundwater restrictions in the West?"
 
 **Paper Citation:** Kathryn Daenzer, Pandara Valappil Femeena, Steve Frolking, Danielle Grogan, Jeff Nucciarone, Kate Calvin, Richard B. Lammers, Karen Fisher-Vanden.
 
 **Publication Status:** The supplemental information document and its associated paper are currently under review for publication. A full citation and link will be provided upon acceptance.
+
+**Code Authors:** Pandara Valappil Femeena and Kathryn Daenzer
 
 **Input Data:** The input data required to run the code in this repository is available at:
 
@@ -21,7 +20,7 @@ Contact info:
 - Femeena Pandara Valappil, [https://orcid.org/0000-0002-9120-8493] https://orcid.org/0000-0002-9120-8493 (code)
 
 ## System requirements:
-This code is written in standard R coding language. No special hardware or system requirements are necessary. The R code requires the use of the following libraries for processing:
+This code is written in standard R coding language, using R version 4.2.1 (Funny Looking Kid). No special hardware or system requirements are necessary. The R code requires the use of the following libraries for processing:
 
 |              |            |               |
 | ------------ | ---------- | ------------- |
