@@ -3,20 +3,18 @@ This repository contains all of the code necessary to reproduce the figures for 
 
 # Code for: How can crop production adapt to growing groundwater restrictions in the West? by Daenzer et al.
 
-This code was developed by Pandara Valappil Femeena and Kathryn Daenzer.  
+**Code Authors:** Pandara Valappil Femeena and Kathryn Daenzer
 
-This repository contains all the code to regenerate the figures described in the associated supplemental information document for the paper, "How can crop production adapt to growing groundwater restrictions in the West?" 
+**Repository Purpose:** This repository contains the code necessary to reproduce the figures in the supplemental information document accompanying the research paper, "How can crop production adapt to growing groundwater restrictions in the West?"
 
-Current paper citation:
-Kathryn Daenzer, Pandara Valappil Femeena, Steve Frolking, Danielle Grogan, Jeff Nucciarone, Kate Calvin, Richard B. Lammers, Karen Fisher-Vanden
+**Paper Citation:** Kathryn Daenzer, Pandara Valappil Femeena, Steve Frolking, Danielle Grogan, Jeff Nucciarone, Kate Calvin, Richard B. Lammers, Karen Fisher-Vanden.
 
-This supplemental information document and its associated paper are in preparation for submission; a full citation and link for both will be added here if it is accepted for publication.
+**Publication Status:** The supplemental information document and its associated paper are currently under review for publication. A full citation and link will be provided upon acceptance.
 
-The input data that is required for this repo's code can be found here:
+**Input Data:** The input data required to run the code in this repository is available at:
 
-"Supporting Information - How Will Crop Production Adapt with Greater Groundwater Restrictions in the West?", authors: Daenzer, Kathryn; Femeena, Pandara Valappil; Frolking, Steve; Grogan, Danielle; Nucciarone, Jeffrey; Calvin, Kate; Lammers, Richard; Fisher-Vanden, Karen 
-
-MSD-LIVE Data Repository. [https://doi.org/1x/x](https://doi.org/10.57931/2530930)
+MSD-LIVE Data Repository -  
+"Supporting Information - How Will Crop Production Adapt with Greater Groundwater Restrictions in the West?", authors: Daenzer, Kathryn; Femeena, Pandara Valappil; Frolking, Steve; Grogan, Danielle; Nucciarone, Jeffrey; Calvin, Kate; Lammers, Richard; Fisher-Vanden, Karen - https://doi.org/10.57931/2530930
 
 Contact info: 
 - Jeffrey Nucciarone, [https://orcid.org/0000-0002-1092-9142] https://orcid.org/0000-0002-1092-9142 (data curation),
