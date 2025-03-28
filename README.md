@@ -47,7 +47,7 @@ A Microsoft XL spreadsheet with a list of all scripts and their:
 
 ---
 
-**File Name:** summary_by_iteration.R	
+### File Name: summary_by_iteration.R	
 
 This script creates summary files for each state and crop combination and derives the values for the following variables:
 
@@ -110,7 +110,7 @@ This script produces the following output:
 
 ---
 
-**File Name:** irr_def_map.R	
+### File Name: irr_def_map.R	
 
 This script creates irrigation deficit maps that are provided in the submitted manuscript (including the supplemental information).
 
@@ -138,8 +138,7 @@ This script produces the following output:
 
 | Output File	                                            | Output File Description                        	          | 
 | --------------------------------------------------------- | -----------------------------------------------------------|
-| /figures/ irr_def_maps_by_crop /[crop]_irr_def_map.png (for each of the six  crop categories)	| Multiple Plots, used to produce:
-Figure S2, Bottom image- Optimal Deficit Irrigation strategy by crop category |
+| /figures/ irr_def_maps_by_crop /[crop]_irr_def_map.png (for each of the six  crop categories)	| Multiple Plots, used to produce: Figure S2, Bottom image- Optimal Deficit Irrigation strategy by crop category |
 | figures/Irr_def_map_allCrops_i10.png	                    | Figure S2, Top image - Optimal deficit irrigation strategy (all crops) |
 | figures/Yld_vs_IrrDef_i10.png	                            | Plot - Yield deficit v/s Irrigation deficit (all crops) Note: Not used in the manuscript and replaced by Figure 3 |
 | figures/Yld_vs_IrrDef_grain_i10.png	                    | Figure S4 - Yield deficit v/s Irrigation deficit (grain) |
@@ -148,7 +147,7 @@ Figure S2, Bottom image- Optimal Deficit Irrigation strategy by crop category |
 
 ---
 
-**File name:** gcamland_plots.R	
+### File name: gcamland_plots.R	
 
 This script creates plots for the GCAM change in land. 	
 
@@ -168,8 +167,7 @@ This script produces the following output:
 | Output File	                                                                 | Output File Description                        	          | 
 | ------------------------------------------------------------------------------ | -----------------------------------------------------------|
 | /figures/gcam_delta_land/Irr_[crop]_iter1.png (for all six crop categories)	 | Change in irrigated land areas at the end of iteration 1 for each crop category Note: Not used in the manuscript |
-| /figures/gcam_delta_land/Irr_[crop]_iter10.png (for all six crop categories)	 | Change in irrigated land areas at the end of iteration 10 for each crop category
-Figure 4, Top plots and Figure S6, Top plots - Depicted for three major crop categories (grain, vegetables and fruits, and fodder crops) |
+| /figures/gcam_delta_land/Irr_[crop]_iter10.png (for all six crop categories)	 | Change in irrigated land areas at the end of iteration 10 for each crop category Figure 4, Top plots and Figure S6, Top plots - Depicted for three major crop categories (grain, vegetables and fruits, and fodder crops) |
 | /figures/gcam_delta_land/Irr_total_iter1.png	                                 | Change in total irrigated land area for all crops after iteration 1. Change in irrigated land areas at the end of iteration 1 for each crop category.  Note: Not used in the manuscript |
 | /figures/gcam_delta_land/Irr_total_iter10.png	                                 | Figure S5, Left image - Change in total irrigated land area for all crops after iteration 10 |
 /figures/gcam_delta_land/Rfd_[crop]_iter1.png (for all six crop categories)	 | Change in rainfed land areas at the end of iteration 1 for each crop category Change in irrigated land areas at the end of iteration 1 for each crop category Note: Not used in the manuscript |
@@ -179,7 +177,7 @@ Figure 4, Top plots and Figure S6, Top plots - Depicted for three major crop cat
 
 ---
 
-**File name:** DNDCe_yield_def_figures.R	
+### File name: DNDCe_yield_def_figures.R	
 
 This script creates plots of crop yield deficits.  	
 
@@ -189,26 +187,22 @@ The following input files are required:
 
 | Input File	                                                                 | Input File Description                        	          | 
 | --------------------------------------------------------------------           | ------------------------------------------------         |
-| /data/WBM/wbm_irrigationGross_dc_iteration_0.nc	Water withdrawals for agriculture for iteration o (warmup step), daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios.
-| /data/WBM/wbm_irrigationGross_dc_iteration_10.nc	Water withdrawals for agriculture for iteration 10, daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios.
-| /data/WBM/wbm_irrigationExtra_dc_iteration_0.nc	Water withdrawals from unsustainable groundwater for agriculture for iteration 0 (warmup step), daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios.
-| /data/WBM/wbm_irrigationExtra_dc_iteration_10.nc	Water withdrawals from unsustainable groundwater for agriculture for iteration 10, daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios.
+| /data/WBM/wbm_irrigationGross_dc_iteration_0.nc	                         | Water withdrawals for agriculture for iteration o (warmup step), daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios. |
+| /data/WBM/wbm_irrigationGross_dc_iteration_10.nc	                         | Water withdrawals for agriculture for iteration 10, daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios. |
+| /data/WBM/wbm_irrigationExtra_dc_iteration_0.nc	                         | Water withdrawals from unsustainable groundwater for agriculture for iteration 0 (warmup step), daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios. |
+| /data/WBM/wbm_irrigationExtra_dc_iteration_10.nc	                         | Water withdrawals from unsustainable groundwater for agriculture for iteration 10, daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios. |
 
 
 This script produces the following output:
 
 | Output File	                                            | Output File Description                        	          | 
 | --------------------------------------------------------- | -----------------------------------------------------------|
-| /figures/WBM_irrigation_maps/Change_unsust_irrig.png	"Change in unsustainable irrgation water request between iteration 0 and 10 for the US West
-
-Change in irrigated land areas at the end of iteration 1 for each crop category
-
-Note: Not used in the manuscript"
-| /figures/WBM_irrigation_maps/Frac_unsust_irrig_iter0.png	Figure 2a - Fraction of rrigation water coming from unssutainable ground water for reference (iteration 0) scenario
-| /figures/WBM_irrigation_maps/Frac_unsust_irrig_iter10-iter0_CA.png	Figure 2c - Change in fraction of unsustainable ground water use for California between iteration 0 and 10
+| /figures/WBM_irrigation_maps/Change_unsust_irrig.png	    | Change in unsustainable irrgation water request between iteration 0 and 10 for the US West Change in irrigated land areas at the end of iteration 1 for each crop category Note: Not used in the manuscript |
+| /figures/WBM_irrigation_maps/Frac_unsust_irrig_iter0.png  | Figure 2a - Fraction of rrigation water coming from unssutainable ground water for reference (iteration 0) scenario |
+| /figures/WBM_irrigation_maps/Frac_unsust_irrig_iter10-iter0_CA.png	| Figure 2c - Change in fraction of unsustainable ground water use for California between iteration 0 and 10 |
 ---
 
-File name: WBM_irrigation_analysis.R	
+### File name: WBM_irrigation_analysis.R	
 
 This script creates plots of grid-scale unsustainable irrigation fraction.	
 
@@ -216,50 +210,57 @@ Creates output folder: /figures/WBM_irrigation_maps
 
 The following input files are required:
 
-| Input File	                                                                 | Input File Description                        	          | 
-| --------------------------------------------------------------------           | ------------------------------------------------         |
-| 
+| Input File	                                             | Input File Description                        	          | 
+| ---------------------------------------------------------- | ------------------------------------------------         |
+| /data/WBM/wbm_irrigationGross_dc_iteration_0.nc	     | Water withdrawals for agriculture for iteration o (warmup step), daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios. |
+| /data/WBM/wbm_irrigationGross_dc_iteration_10.nc	     | Water withdrawals for agriculture for iteration 10, daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios. |
+| /data/WBM/wbm_irrigationExtra_dc_iteration_0.nc	     | Water withdrawals from unsustainable groundwater for agriculture for iteration 0 (warmup step), daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios. |
+| /data/WBM/wbm_irrigationExtra_dc_iteration_10.nc	     | Water withdrawals from unsustainable groundwater for agriculture for iteration 10, daily climatology (mm). Results for iterations 0 and 10 are used in the processing scripts to estimate the change in irrigation water use between reference and optimal scenarios.  |
 
 
 This script produces the following output:
 
-| Output File	                                            | Output File Description                        	          | 
-| --------------------------------------------------------- | -----------------------------------------------------------|
-|
-
- ---
-
-File name: Yield_irr_def_plot.R	
-
-This script creates a plot of sustainable irrigation fraction versus fraction of maximum yield.	
-
-| Input File	                                                                 | Input File Description                        	          | 
-| --------------------------------------------------------------------           | ------------------------------------------------         |
-
-
-
-This script produces the following output:
-
-| Output File	                                            | Output File Description                        	          | 
-| --------------------------------------------------------- | -----------------------------------------------------------|
+| Output File	                                                      | Output File Description                        	          | 
+| ------------------------------------------------------------------- | -----------------------------------------------------------|
+| /figures/WBM_irrigation_maps/Change_unsust_irrig.png	              | Change in unsustainable irrgation water request between iteration 0 and 10 for the US West Change in irrigated land areas at the end of iteration 1 for each crop category Note: Not used in the manuscript |
+| /figures/WBM_irrigation_maps/Frac_unsust_irrig_iter0.png	      | Figure 2a - Fraction of rrigation water coming from unssutainable ground water for reference (iteration 0) scenario |
+| /figures/WBM_irrigation_maps/Frac_unsust_irrig_iter10-iter0_CA.pn   | Figure 2c - Change in fraction of unsustainable ground water use for California between iteration 0 and 10 |
 
 ---
 
-ag_bar_chart.R:	
+###File name: Yield_irr_def_plot.R	
+
+This script creates a plot of sustainable irrigation fraction versus fraction of maximum yield.	
+
+| Input File	                             | Input File Description                        	          | 
+| --------------------------------------     | ------------------------------------------------         |
+data/Yield_irr_deficit_figure_data.csv       | This file was externally created in Microsoft Excel using the summary data in results/crop_state_tables. We obtained the values for each state and crop combination by taking the ratio of sustainable irrigation water and total irrigation water (= fraction of full irrigation) and sustainable yield to maximum irrigated yield (= Fraction of maximum yield). Values were derived for iterations 0 and 10 and used to create the plot. |
+
+
+This script produces the following output:
+
+| Output File	                        | Output File Description                                              | 
+| ------------------------------------- | ---------------------------------------------------------------------|
+| /figures/Yielddef_irrdef_plot.png     | Figure 3 - Fraction of maximum yield v/s fraction of total irrigation that is from sustainable groundwater |
+
+---
+
+### File name: ag_bar_chart.R	
 
 This script creates a stacked bar chart displaying the economic value of agricuture output for three crops across the western region.
 
 The following input files are required:
 
-| Input File	                                                                 | Input File Description                        	          | 
-| --------------------------------------------------------------------           | ------------------------------------------------         |
-
+| Input File	                   | Input File Description                        	       | 
+| -------------------------------- | --------------------------------------------------------- |
+| data/DREM_figure_data.csv	   | This file was created using General Algebraic Modeling Software (GAMS).  software. The state-level production values are direct output from the DREM model, and they are aggregated to provide a total value for each of the western sub-regions (Southwest, Pacific Northwest, Mountain States, and California). |
 
 
 This script produces the following output:
 
-| Output File	                                            | Output File Description                        	          | 
-| --------------------------------------------------------- | -----------------------------------------------------------|
+| Output File	                   | Output File Description                        	          | 
+| -------------------------------- | -----------------------------------------------------------|
+| drem_production_barchart.png	   | Figure 5 - Crop production in billion USD by crop and region before the water shock and after the water shock and farmer adaptation. | 
 ---
 
 
