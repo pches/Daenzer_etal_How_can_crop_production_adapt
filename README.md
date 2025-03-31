@@ -63,17 +63,6 @@ This script must be run first as these generated summary files are used in the o
 
 Output written to folders: results/crop_state_tables
 
-Note: I'm thinking o putting this into a section titles "Detailed Description" -- either as images or a recreation of the table. Tell me your thoughts, please.
-Test image, tell me what you think:
-
-![image](https://github.com/user-attachments/assets/5d1c5f5b-c044-484d-934a-3ead3230318b)
-
-alternate view:
-
-![image](https://github.com/user-attachments/assets/0cfd4d2d-27e0-4121-9faf-9a5a4e5c1eec)
-
-![image](https://github.com/user-attachments/assets/5c26f8fc-2837-4361-ba28-680b21de1ef5)
-
 The following input files are required:
 
 | Input File	                                                                 | Input File Description                        	          | 
@@ -228,7 +217,7 @@ This script produces the following output:
 
 ---
 
-###File name: Yield_irr_def_plot.R	
+### File name: Yield_irr_def_plot.R	
 
 This script creates a plot of sustainable irrigation fraction versus fraction of maximum yield.	
 
