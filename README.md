@@ -18,18 +18,18 @@ MSD-LIVE Data Repository -
 **Contact info:** 
 - Jeffrey Nucciarone, [https://orcid.org/0000-0002-1092-9142] https://orcid.org/0000-0002-1092-9142 (data curation),
 - Femeena Pandara Valappil, [https://orcid.org/0000-0002-9120-8493] https://orcid.org/0000-0002-9120-8493 (code),
-- Kathryn Daenzer, no orcide id information yet (code)
+- Kathryn Daenzer, no orcid id information yet (code)
 
 ## System requirements:
 This code is written in standard R coding language, using R version 4.2.1 (Funny Looking Kid). No special hardware or system requirements are necessary. The R code requires the use of the following libraries for processing:
 
-|              |            |               |
-| ------------ | ---------- | ------------- |
-| RColorBrewer | lattice    | rgeos         |
-| data.table   | maps       | rnaturalearth |
-| dplyr        | ncdf4      | sf            |
-| ggplot2      | raster     | sp            |
-| ggspatial    | rgdal      | tidyr         |
+|              |              |               |
+| ------------ | ------------ | ------------- |
+| RColorBrewer | lattice      | rgeos         |
+| data.table   | maps         | rnaturalearth |
+| dplyr        | ncdf4        | sf            |
+| ggplot2      | raster       | sp            |
+| ggspatial    | rgdal        | tidyr         |
 
 All processing was performed on a Red Hat Enterprise Linux 8 system but should be reproducible on a regular Windows/Mac/Linux computer.  
 
