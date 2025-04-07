@@ -36,7 +36,7 @@ All processing was performed on a Red Hat Enterprise Linux 8 system but should b
 
 ## Scripts:
 
-The code provided here to reproduce the figures and tables in the paper requires the data available on MSD-Live at https://doi.org/. A description file available in this repo, in the form of a spreadsheet, lists the required input files for each script. The output file description lists each associated figure generated in the paper.
+The code provided here to reproduce the figures and tables in the paper requires the data available on MSD-Live at https://doi.org/10.57931/2530930. A description file available in this repo, in the form of a spreadsheet, lists the required input files for each script. The output file description lists each associated figure generated in the paper.
 
 Here, we describe each dataset:
 
