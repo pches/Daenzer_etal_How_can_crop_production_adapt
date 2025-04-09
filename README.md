@@ -1,4 +1,4 @@
-# Daenzer_etal_How_can_crop_production_adapt
+# Femeena_etal_How_can_crop_production_adapt
 
 ## Code for: How can crop production adapt to growing groundwater restrictions in the West? by Femeena et al.
 
