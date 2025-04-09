@@ -1,10 +1,10 @@
 # Daenzer_etal_How_can_crop_production_adapt
 
-## Code for: How can crop production adapt to growing groundwater restrictions in the West? by Daenzer et al.
+## Code for: How can crop production adapt to growing groundwater restrictions in the West? by Femeena et al.
 
 **Repository Purpose:** This repository contains the code necessary to reproduce the figures in the supplemental information document accompanying the research paper, "How can crop production adapt to growing groundwater restrictions in the West?"
 
-**Paper Citation:** Kathryn Daenzer, Pandara Valappil Femeena, Steve Frolking, Danielle Grogan, Jeff Nucciarone, Kate Calvin, Richard B. Lammers, Karen Fisher-Vanden.
+**Paper Citation:** Pandara Valappil Femeena, Kathryn Daenzer, Steve Frolking, Danielle Grogan, Jeff Nucciarone, Kate Calvin, Richard B. Lammers, Karen Fisher-Vanden.
 
 **Publication Status:** The supplemental information document and its associated paper are currently under review for publication. A full citation and link will be provided upon acceptance.
 
@@ -13,7 +13,7 @@
 **Input Data:** The input data required to run the code in this repository is available at:
 
 MSD-LIVE Data Repository -  
-"Supporting Information - How Can Crop Production Adapt to growing groundwater restrictions in the West?", authors: Daenzer, Kathryn; Femeena, Pandara Valappil; Frolking, Steve; Grogan, Danielle; Nucciarone, Jeffrey; Calvin, Kate; Lammers, Richard; Fisher-Vanden, Karen - https://doi.org/10.57931/2530930
+"Supporting Information - How Can Crop Production Adapt to Growing Groundwater Restrictions in the West?", authors: Daenzer, Kathryn; Femeena, Pandara Valappil; Frolking, Steve; Grogan, Danielle; Nucciarone, Jeffrey; Calvin, Kate; Lammers, Richard; Fisher-Vanden, Karen - https://doi.org/10.57931/2530930
 
 **Contact info:** 
 - Jeffrey Nucciarone, [https://orcid.org/0000-0002-1092-9142] https://orcid.org/0000-0002-1092-9142 (data curation),
